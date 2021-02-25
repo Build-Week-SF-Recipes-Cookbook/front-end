@@ -1,9 +1,20 @@
+import React from 'react'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from 'react-router-dom'
 import './App.css';
+import Home from './Views/Home';
 
 function App() {
   return (
     <div className="App">
-      <h1>Secret Family Recipes Cookbook</h1>
+      <Switch>
+        <Route>
+          <Home />
+        </Route>
+      </Switch>
     </div>
   );
 }
