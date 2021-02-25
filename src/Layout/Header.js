@@ -1,10 +1,18 @@
 import React from 'react'
+import styled from 'styled-components'
+
+const HeaderStyled = styled.header`
+    background-color: pink;
+`;
 
 function Header() {
     return (
-        <>
-            <h1>Header</h1>
-        </>
+        <HeaderStyled>
+            <h1>
+                <span>YUMMY</span>
+                <span>APP</span>
+            </h1>
+        </HeaderStyled>
     )
 }
 
