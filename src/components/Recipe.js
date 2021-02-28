@@ -1,8 +1,9 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
-const RecipeStyled = styled.div`
-    background-color: #B1D9CD;
+const RecipeStyled = styled(Link)`
+    background-color: #FFDFD3;
     border-radius: 100px 30px 30px 100px;
     display: flex;
     flex-flow: row nowrap;
@@ -10,6 +11,13 @@ const RecipeStyled = styled.div`
     height: 100px;
     width: 30%;
     margin-bottom: 4rem;
+    text-decoration: none;
+    color: #000;
+
+    &:hover {
+        color: #000;
+        text-decoration: underline;
+}
 `;
 
 const ImageStyled = styled.div`
@@ -37,7 +45,7 @@ const Recipe = () => {
 
 
     return (
-        <RecipeStyled>
+        <RecipeStyled to="/">
             <ImageStyled></ImageStyled>
             <InfoStyled>
                 <h3>Kind a long title for a plate of healthy food</h3>

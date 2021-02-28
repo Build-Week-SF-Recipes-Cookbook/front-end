@@ -7,6 +7,7 @@ const ResultsStyled = styled.section`
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    align-content: flex-start;
     margin: 2rem auto 0;
     width: 90%;
     max-width: 1360px;
