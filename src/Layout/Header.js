@@ -11,7 +11,7 @@ const HeaderStyled = styled.header`
     margin: 0 auto;
     width: 100%;
     height: 74px;
-    max-width: 1620px;
+    max-width: 1360px;
 
     h1 {
         padding: 20px 0;
