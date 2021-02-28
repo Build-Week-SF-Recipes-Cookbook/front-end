@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import Search from '../components/Search';
 
 const HeroStyled = styled.section`
     background-color: pink;
@@ -18,6 +19,7 @@ const Hero = () => {
             <h2>secret recipes</h2>
             <p>to cook from around the world.</p>
             <p>to cook from around the world.</p>
+            <Search />
         </HeroStyled>
     )
 }
