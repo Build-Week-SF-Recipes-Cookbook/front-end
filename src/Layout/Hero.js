@@ -8,24 +8,36 @@ const HeroStyled = styled.section`
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 20px;
+    color: #FFF;
     display: flex;
     flex-flow: column wrap;
     justify-content: center; //vertical
     align-items: flex-start; //horizontal
     margin: 2rem auto 0;
     padding: 0 4rem;
-    width: 100%;
+    width: 90%;
     height: 80vh;
     max-width: 1360px;
+
+
+    h2 {
+        font-size: 3rem;
+        font-weight: 800;
+        margin-bottom: 0.5rem;
+    }
+
+    p:nth-child(3) {
+        margin-bottom: 1rem;
+    }
 
 `;
 
 const Hero = () => {
     return (
         <HeroStyled>
-            <h2>secret recipes</h2>
-            <p>to cook from around the world.</p>
-            <p>to cook from around the world.</p>
+            <h2>Shhh! this is a secret...</h2>
+            <p>family recipes to cook from around the world.</p>
+            <p>Type below and start cooking</p>
             <Search />
         </HeroStyled>
     )
