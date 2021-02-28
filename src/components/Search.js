@@ -7,8 +7,6 @@ const FormStyled = styled.form`
     flex-flow: row nowrap;
     justify-content: center; //vertical
     align-items: center; //horizontal
-
-
     background-color: #FFF;
     border-radius: 100px;
     box-shadow: 0 0 15px rgba(0,0,0,0.4);

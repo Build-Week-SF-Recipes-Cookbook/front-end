@@ -4,14 +4,18 @@ import {
   Route
 } from 'react-router-dom'
 import './App.css';
+import Results from './Layout/Results';
 import Home from './Views/Home';
 
 function App() {
   return (
     <div className="App">
       <Switch>
-        <Route path="/">
+        <Route exact path="/">
           <Home />
+        </Route>
+        <Route path="/results">
+          <Results />
         </Route>
       </Switch>
     </div>
