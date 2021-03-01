@@ -4,7 +4,7 @@ import {
   Route
 } from 'react-router-dom'
 import './App.css';
-import Results from './Layout/Results';
+import Results from './Views/Results';
 import Home from './Views/Home';
 
 function App() {
