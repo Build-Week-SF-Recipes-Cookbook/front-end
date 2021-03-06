@@ -4,7 +4,7 @@ import styled from 'styled-components'
 const FormStyled = styled.form`
     display: flex;
     flex-flow: column wrap;
-    width: 500px;
+    width: 100%;
     margin: 0 auto;
 
     label {
@@ -30,8 +30,10 @@ const FormStyled = styled.form`
         justify-content: flex-start;
         margin-top: 0.5rem;
         margin-bottom: 0;
-}
-
+    }
+    label:nth-child(4) label input {
+        margin-right: 0.5rem;
+    }
 
 
 
