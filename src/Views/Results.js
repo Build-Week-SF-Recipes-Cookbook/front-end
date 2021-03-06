@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Recipe from '../components/Recipe';
-import Header from './Header'
+import Header from '../Layout/Header'
 
 const ResultsStyled = styled.section`
     display: flex;
