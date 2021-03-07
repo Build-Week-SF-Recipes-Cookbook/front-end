@@ -7,6 +7,7 @@ import './App.css';
 import Results from './Views/Results';
 import Home from './Views/Home';
 import NewRecipe from './Views/NewRecipe';
+import Login from './Views/Login';
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
         </Route>
         <Route path="/new">
           <NewRecipe />
+        </Route>
+        <Route path="/login">
+          <Login />
         </Route>
       </Switch>
     </div>
